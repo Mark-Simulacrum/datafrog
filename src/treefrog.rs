@@ -269,7 +269,7 @@ mod extend_anti {
     }
 }
 
-mod filter_with {
+pub mod filter_with {
 
     use super::{Leaper, Relation};
 
@@ -328,7 +328,7 @@ mod filter_with {
     }
 }
 
-mod filter_anti {
+pub mod filter_anti {
 
     use super::{Leaper, Relation};
 

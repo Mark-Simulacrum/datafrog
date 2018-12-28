@@ -17,7 +17,11 @@ use std::rc::Rc;
 
 mod join;
 mod map;
-pub mod treefrog;
+mod treefrog;
+pub use treefrog::{
+    filter_anti::FilterAnti,
+    filter_with::FilterWith, Leaper
+};
 
 /// A static, ordered list of key-value pairs.
 ///
